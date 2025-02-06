@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
-import pe.joedayz.ws.core.ProductCreatedEvent;
+import pe.joedayz.ws.core.events.ProductCreatedEvent;
 import pe.joedayz.ws.emailnotificationservice.error.NotRetryableException;
 import pe.joedayz.ws.emailnotificationservice.error.RetryableException;
 import pe.joedayz.ws.emailnotificationservice.io.ProcessedEventEntity;
